@@ -45,8 +45,8 @@ public class Simulation {
             p1.remember (p2cooperated);
             p2.remember (p1cooperated);
         }
-        System.out.println ("Player 1 has " + p1.score ( ));
-        System.out.println ("Player 2 has " + p2.score ( ));
+        System.out.println ("Player 1:" + p1);
+        System.out.println ("Player 2:" + p2);
     }
     
 

@@ -9,4 +9,8 @@ public class TitForTat extends Player{
         choice = opponentChoice;
     }
 
+    public String toString() {
+        return "TitForTat got: " + this.score();
+    }
+
 }

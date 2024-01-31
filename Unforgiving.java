@@ -10,4 +10,8 @@ public class Unforgiving extends Player {
     public boolean cooperates(){
         return veng;
     }
+
+    public String toString() {
+        return "Veng got: " + this.score();
+    }
 }
