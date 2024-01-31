@@ -31,4 +31,8 @@ public class Player {
 	public String toString() {
         return "Player got: " + this.score();
     }
+
+	public int compareTo(Player other) {
+		return this.score() - other.score();
+	}
 }
